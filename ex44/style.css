@@ -29,7 +29,7 @@ main.a{
 
 main.b{
 
-    height: 839px;
+    height: 1425px;
     margin-top: 57px;
 }
 
@@ -61,7 +61,7 @@ nav > a{
 }
 
 a{
-    
+    margin-left: 15px;
 }
 
 h1.titulo{
@@ -92,7 +92,7 @@ footer{
 
 img{
     height: 251px;
-    margin-top: 49px;
+    margin-top: -5px;
 }
 
 
@@ -102,7 +102,20 @@ div{
     width: 183px;
     filter: opacity(50);
     margin-top: 37px;
-    height: 310px;
-
-
+    height: 286px;
 }
+p{
+    color: white;
+}
+
+div > p{
+    margin-top: 1px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    -webkit-box-orient: vertical; 
+}
+
+.card-text{
+    
+ }
