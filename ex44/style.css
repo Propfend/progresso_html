@@ -6,7 +6,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-color: #292929;
-    background-image: url(background_images/e1.jpg);
+    background-image: url(background_images/e4.jpg);
 }
 
 h1, h2{
@@ -52,8 +52,9 @@ nav{
     width: 100%;
     height: 41px;
     margin: auto;
-    
+    position: relative;
 }
+
 
 nav > a{
     color: white;
@@ -61,6 +62,7 @@ nav > a{
     margin-top: 10px;
     text-decoration: none;
     font-family: sans-serif;
+    position: absolute;
 }
 
 a{
@@ -120,3 +122,18 @@ div > p{
     -webkit-box-orient: vertical; 
 }
 
+.a1{
+    margin-left: 109px;
+}
+
+.a2{
+    margin-left: 333px;
+}
+
+.a3{
+    margin-left: 549px;
+}
+
+.a4{
+    margin-left: 747px;
+}
