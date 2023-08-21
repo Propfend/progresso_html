@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formas</title>
+    <style>
+        body{
+            background-color: #bc49c7e0;
+        }
+
+        main{
+            background-color: blanchedalmond;
+            width: 347px;
+            height: 399px;
+            margin: auto;
+        }
+
+        div{
+            margin-top: 16px;
+        }
+        .container{
+   
+        }
+    </style>
 </head>
 <body>
     <main>
-        <form action="" method="get">
-            <label for="nome">Digite o Seu Nome: </label>
-            <input type="text" name="nome" id="nome">
-            <label for="genero">Marque o Seu Gênero: </label>
-            <input type="checkbox" name="genero" id="genero">
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="container">
+            <form action="" method="get">
+                <div>
+                    <label for="nome">Digite o Seu Nome: </label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="genero">Marque o Seu Gênero: </label>
+                    <input type="checkbox" name="genero" id="genero">
+                </div>
+                <div><button type="submit">Enviar</button></div>
+            </form>
+        </div>
     </main>
 </body>
 </html>
